@@ -1634,7 +1634,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: #0090c5;
+		background: green;
 		color: #fff;
 		text-decoration: none;
 		border-radius: 6px;
@@ -1934,12 +1934,11 @@ input, select, textarea {
 /* Logo */
 
 	#logo {
-		display: inline-block;
+		display: block;
 	}
 
 		#logo h1 {
-			background: #FF7F50;
-			color: #fff;
+			
 			border-radius: 6px;
 			font-family: 'Oleo Script', serif;
 			font-weight: 400;
@@ -1947,7 +1946,8 @@ input, select, textarea {
 			font-size: 3.25em;
 			letter-spacing: 0.05em;
 			display: inline-block;
-			vertical-align: middle;
+			vertical-align: top;
+			
 		}
 
 		#logo span {
@@ -2248,7 +2248,7 @@ input, select, textarea {
 		/* Wrappers */
 
 			#header-wrapper {
-				padding: 3em 0 1em 0;
+				padding: 4em 0 1em 0;
 				text-align: center;
 			}
 
