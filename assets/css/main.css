@@ -1779,11 +1779,12 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #fff;
+		background:white;
 		border-radius: 6px;
 		box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
 		padding: 2em;
-	}
+		margin-top: -90px;
+		}
 
 		.box.feature {
 			padding: 0;
@@ -1934,30 +1935,22 @@ input, select, textarea {
 /* Logo */
 
 	#logo {
-		display: block;
+		display: inline-block;
 	}
 
 		#logo h1 {
 			
-			border-radius: 6px;
+			border-radius: 1px;
 			font-family: 'Oleo Script', serif;
 			font-weight: 400;
 			padding: 0.25em 0.2em 0.25em 0.2em;
-			font-size: 3.25em;
+			font-size: 1em;
 			letter-spacing: 0.05em;
 			display: inline-block;
-			vertical-align: top;
+			vertical-align: middle;
 			
 		}
 
-		#logo span {
-			font-weight: 400;
-			line-height: 4.5em;
-			letter-spacing: 0.025em;
-			font-size: 0.9em;
-			vertical-align: middle;
-			margin: 0 0 0 1.25em;
-		}
 
 /* Nav */
 
@@ -1966,6 +1959,8 @@ input, select, textarea {
 		right: 0;
 		top: 0;
 		font-size: 0.9em;
+		margin-top: 100px;
+
 	}
 
 		#nav ul {
