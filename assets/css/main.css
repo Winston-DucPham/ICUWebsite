@@ -1634,7 +1634,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: green;
+		background: rgb(52, 172, 52);
 		color: #fff;
 		text-decoration: none;
 		border-radius: 6px;
