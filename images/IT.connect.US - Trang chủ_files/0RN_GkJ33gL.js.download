@@ -1,4 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["UR\/QH"]); }
-
-__d("IntegrityContextTriggerBootloader",["Bootloader"],(function(a,b,c,d,e,f){"use strict";function g(a,b){a=a.triggerLoggerExtraData||null;b=b&&b.getExtraDataForTriggerLogger()||null;return babelHelpers["extends"]({},a,b)}function a(a){b("Bootloader").loadModules(["IntegrityContextTriggerGlimpseAnimator","IntegrityContextTriggerLoggerManager"],function(b,c){var d=b.initAnim(a);b=function(){return g(a,d)};c.initLogger(a,b)},"IntegrityContextTriggerBootloader")}e.exports={bootload:a}}),null);
-__d("legacy:animation",["Animation"],(function(a,b,c,d,e,f){a.Animation=b("Animation")}),3);
